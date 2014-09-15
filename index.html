@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>GA FEWD 23 Demo</title>
+        <meta name="description" content="GA FEWD 23 Demo">
+        <meta name="author" content="Sebastian Soler">
+
+        <link rel="stylesheet" href="demo.css">
+        
+    </head>
+    
+    <body>
+        
+        <div class="controlls">
+            <ul>
+                <li>
+                    <h4>1. select the car you want to drive...</h4>
+                </li>
+                <li>
+                    <h2>Controlls</h2>
+                </li>
+                <li>
+                    <button id="up">Move Up</button>
+                </li>
+                <li>
+                    <button id="down">Move Down</button>
+                </li>
+                <li>
+                    <input type = "radio" name = "slow" class="speed" id = "50" value = "slow" checked = "checked" />
+                    <label for = "sizeSmall">slow</label>
+                </li>
+                <li>
+                    <input type = "radio" name = "normal" class="speed" id = "100" value = "normal" />
+                    <label for = "sizeSmall">normal</label>
+                </li>
+                <li>
+                    <input type = "radio" name = "fast" class="speed" id = "150" value = "fast" />
+                    <label for = "sizeSmall">fast</label>
+                </li>
+                <li>
+                    <button id="pilot">Auto Pilot</button>
+                </li>
+                <li>
+                    <button id="paint">Paint Shop</button>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="road">
+            <div class="side left-side">
+                
+                <div class="lane left-lane">
+                    <div class="car" id="car1">
+                        <div class="tire tire1"></div>
+                        <div class="tire tire2"></div> 
+                        <div class="tire tire3"></div>
+                        <div class="tire tire4"></div>
+                    </div>
+                </div>
+                
+                <div class="lane right-lane">
+                    <div class="car" id="car2">
+                        <div class="tire tire1"></div>
+                        <div class="tire tire2"></div> 
+                        <div class="tire tire3"></div>
+                        <div class="tire tire4"></div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="side right-side">
+                
+                <div class="lane left-lane">
+                    <div class="car" id="car3">
+                        <div class="tire tire1"></div>
+                        <div class="tire tire2"></div> 
+                        <div class="tire tire3"></div>
+                        <div class="tire tire4"></div>
+                    </div>
+                </div>
+                
+                <div class="lane right-lane">
+                    <div class="car" id="car4">
+                        <div class="tire tire1"></div>
+                        <div class="tire tire2"></div> 
+                        <div class="tire tire3"></div>
+                        <div class="tire tire4"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="demo.js"></script>
+    </body>
+    
+</html>
+    
+    
